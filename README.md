@@ -1,6 +1,6 @@
 # Indonesian Review Sentiment Analysis with RNN and LSTM
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joysonkustiadi-creator/indonesian-sentiment-rnn-lstm/blob/main/RNN_LSTM_Indonesian_Sentiment.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joysonkustiadi-creator/sentiment-analysis-of-indonesian-reviews/blob/main/RNN_LSTM_Indonesian_Sentiment.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
 ![Task](https://img.shields.io/badge/Task-Sentiment%20Analysis-green)
@@ -228,7 +228,7 @@ Both models handle negation (*tidak enak*) and the mixed "good place **but** exp
 ### Repository structure
 
 ```
-indonesian-sentiment-rnn-lstm/
+sentiment-analysis-of-indonesian-reviews/
 ├── README.md                              # this documentation
 ├── RNN_LSTM_Indonesian_Sentiment.ipynb    # full notebook, with outputs
 ├── requirements.txt                       # Python packages for running locally
@@ -249,8 +249,8 @@ indonesian-sentiment-rnn-lstm/
 **Option B: locally**
 
 ```bash
-git clone https://github.com/joysonkustiadi-creator/indonesian-sentiment-rnn-lstm.git
-cd indonesian-sentiment-rnn-lstm
+git clone https://github.com/joysonkustiadi-creator/sentiment-analysis-of-indonesian-reviews.git
+cd sentiment-analysis-of-indonesian-reviews
 pip install -r requirements.txt
 jupyter notebook RNN_LSTM_Indonesian_Sentiment.ipynb
 ```
